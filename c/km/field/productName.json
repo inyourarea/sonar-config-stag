@@ -1,0 +1,15 @@
+{
+  "$id": "c_productName",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Product name sold to the customer",
+  "displayName": "Product Name",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100000
+    }
+  },
+  "typeId": "string"
+}

@@ -1,0 +1,15 @@
+{
+  "$id": "c_customerEmail",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Internal contact email for the customer",
+  "displayName": "Customer Email",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 250
+    }
+  },
+  "typeId": "string"
+}

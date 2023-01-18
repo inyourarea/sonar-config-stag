@@ -1,0 +1,27 @@
+{
+  "$id": "c_terminationReason",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Understand Expired vs Cancelled entities",
+  "displayName": "Termination Reason",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "optionType": {
+      "option": [
+        {
+          "displayName": "n/a",
+          "textValue": "N/A"
+        },
+        {
+          "displayName": "Cancelled",
+          "textValue": "CANCELLED"
+        },
+        {
+          "displayName": "Expired",
+          "textValue": "EXPIRED"
+        }
+      ]
+    }
+  },
+  "typeId": "option"
+}

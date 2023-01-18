@@ -1,0 +1,15 @@
+{
+  "$id": "c_aspOrderID",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Add Sales Pro Order Line",
+  "displayName": "ASP Order ID",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100000
+    }
+  },
+  "typeId": "string"
+}

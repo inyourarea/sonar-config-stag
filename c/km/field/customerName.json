@@ -1,0 +1,15 @@
+{
+  "$id": "c_customerName",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Internal customer name for contacting",
+  "displayName": "Customer Name",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 250
+    }
+  },
+  "typeId": "string"
+}

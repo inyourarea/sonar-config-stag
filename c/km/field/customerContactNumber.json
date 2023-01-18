@@ -1,0 +1,16 @@
+{
+  "$id": "c_customerContactNumber",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "The contact number of the customer",
+  "displayName": "Customer Contact Number",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "minLength": 8,
+      "maxLength": 16
+    }
+  },
+  "typeId": "string"
+}

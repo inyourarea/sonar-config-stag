@@ -1,0 +1,22 @@
+{
+  "$id": "location.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Location-default",
+  "entityType": "location",
+  "fields": [
+    "c_aspOrderID",
+    "c_customerContactNumber",
+    "c_customerEmail",
+    "c_customerName",
+    "c_endDate",
+    "c_fulfilmentNotes",
+    "c_iYALastModifiedTime",
+    "c_iYASalesPerson",
+    "c_iYASalesPersonEmail",
+    "c_onboardingStatus",
+    "c_productName",
+    "c_startDate",
+    "c_terminationReason"
+  ],
+  "required": []
+}

@@ -1,0 +1,12 @@
+{
+  "$id": "c_startDate",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Start date of annual subscription",
+  "displayName": "Start Date",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "dateType": {}
+  },
+  "typeId": "date"
+}

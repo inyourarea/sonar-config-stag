@@ -1,0 +1,15 @@
+{
+  "$id": "c_iYASalesPerson",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Original Sales Rep from IYA",
+  "displayName": "IYA Sales Person",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100000
+    }
+  },
+  "typeId": "string"
+}

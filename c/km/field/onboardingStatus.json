@@ -1,0 +1,39 @@
+{
+  "$id": "c_onboardingStatus",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Workflow status for onboarding the customer",
+  "displayName": "Onboarding Status",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "optionType": {
+      "option": [
+        {
+          "displayName": "Pending",
+          "textValue": "PENDING"
+        },
+        {
+          "displayName": "Scheduled",
+          "textValue": "SCHEDULED"
+        },
+        {
+          "displayName": "In Progress",
+          "textValue": "IN_PROGRESS"
+        },
+        {
+          "displayName": "Query",
+          "textValue": "QUERY"
+        },
+        {
+          "displayName": "Complete (Contacted)",
+          "textValue": "COMPLETE_(CONTACTED)"
+        },
+        {
+          "displayName": "Complete (No Contact)",
+          "textValue": "COMPLETE_(NO_CONTACT)"
+        }
+      ]
+    }
+  },
+  "typeId": "option"
+}

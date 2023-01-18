@@ -1,0 +1,12 @@
+{
+  "$id": "c_endDate",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "End date of annual subscription",
+  "displayName": "End Date",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "dateType": {}
+  },
+  "typeId": "date"
+}

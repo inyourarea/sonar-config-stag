@@ -1,0 +1,15 @@
+{
+  "$id": "c_iYASalesPersonEmail",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Email for the IYA sales person booking the item",
+  "displayName": "IYA Sales Person Email",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100000
+    }
+  },
+  "typeId": "string"
+}
