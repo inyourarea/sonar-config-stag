@@ -17,12 +17,8 @@
           "textValue": "SCHEDULED"
         },
         {
-          "displayName": "In Progress",
-          "textValue": "IN_PROGRESS"
-        },
-        {
-          "displayName": "Query",
-          "textValue": "QUERY"
+          "displayName": "Escalated",
+          "textValue": "ESCALATED"
         },
         {
           "displayName": "Complete (Contacted)",
