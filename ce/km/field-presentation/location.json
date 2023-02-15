@@ -9,12 +9,9 @@
       "entryType": "DIVIDER"
     },
     {
-      "displayName": "Core Business Details",
+      "displayName": "Core Business Information",
       "entryType": "SECTION",
       "fields": [
-        {
-          "id": "logo"
-        },
         {
           "id": "name",
           "visibleOnAdd": true
@@ -22,9 +19,6 @@
         {
           "id": "categories",
           "visibleOnAdd": true
-        },
-        {
-          "id": "yearEstablished"
         },
         {
           "id": "address",
@@ -38,14 +32,11 @@
           "visibleOnAdd": true
         },
         {
+          "id": "mobilePhone"
+        },
+        {
           "id": "emails"
-        }
-      ]
-    },
-    {
-      "displayName": "Primary URLs",
-      "entryType": "SECTION",
-      "fields": [
+        },
         {
           "id": "websiteUrl"
         },
@@ -57,37 +48,32 @@
         },
         {
           "id": "reservationUrl"
-        }
-      ]
-    },
-    {
-      "displayName": "Social Media",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "facebookPageUrl"
         },
         {
-          "id": "instagramHandle"
+          "id": "description"
         },
         {
-          "id": "twitterHandle"
+          "id": "hours"
         },
         {
-          "id": "linkedInUrl"
+          "id": "paymentOptions"
+        },
+        {
+          "id": "yearEstablished"
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
         }
       ]
     },
     {
       "defaultCollapsed": true,
-      "displayName": "Additional Contacts \u0026 Links",
+      "displayName": "Additional Contact Details",
       "entryType": "SECTION",
       "fields": [
         {
           "id": "localPhone"
-        },
-        {
-          "id": "mobilePhone"
         },
         {
           "id": "tollFreePhone"
@@ -103,59 +89,20 @@
         },
         {
           "id": "androidAppUrl"
-        },
-        {
-          "id": "covid19InformationUrl"
-        }
-      ]
-    },
-    {
-      "displayName": "Media",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "photoGallery"
-        },
-        {
-          "id": "videos"
-        }
-      ]
-    },
-    {
-      "displayName": "Business Details",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "description"
-        },
-        {
-          "id": "featuredMessage"
-        },
-        {
-          "id": "hours"
-        },
-        {
-          "id": "additionalHoursText"
-        },
-        {
-          "id": "phoneticName"
-        },
-        {
-          "id": "paymentOptions"
-        },
-        {
-          "id": "priceRange"
-        },
-        {
-          "id": "pickupAndDeliveryServices"
         }
       ]
     },
     {
       "defaultCollapsed": true,
-      "displayName": "Additional Attributes",
+      "displayName": "Additional Business Details",
       "entryType": "SECTION",
       "fields": [
+        {
+          "id": "featuredMessage"
+        },
+        {
+          "id": "priceRange"
+        },
         {
           "id": "products"
         },
@@ -176,8 +123,120 @@
         },
         {
           "id": "keywords"
+        },
+        {
+          "id": "phoneticName"
+        },
+        {
+          "id": "additionalHoursText"
+        },
+        {
+          "id": "geomodifier"
+        },
+        {
+          "id": "productLists"
+        },
+        {
+          "id": "bios"
+        },
+        {
+          "id": "neighborhood"
         }
       ]
+    },
+    {
+      "displayName": "Photos \u0026 Videos",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "logo"
+        },
+        {
+          "id": "photoGallery"
+        },
+        {
+          "id": "videos"
+        }
+      ]
+    },
+    {
+      "displayName": "Social Media Profiles",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookPageUrl"
+        },
+        {
+          "id": "instagramHandle"
+        },
+        {
+          "id": "twitterHandle"
+        },
+        {
+          "id": "linkedInUrl"
+        }
+      ]
+    },
+    {
+      "displayName": "Frequently Asked Questions",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Publisher Specific",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Google Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleWebsiteOverride"
+        }
+      ]
+    },
+    {
+      "displayName": "Facebook Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookWebsiteOverride"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Apple Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "appleCompanyId"
+        },
+        {
+          "id": "appleBusinessId"
+        },
+        {
+          "id": "appleBusinessDescription"
+        },
+        {
+          "id": "appleCoverPhoto"
+        },
+        {
+          "id": "appleActionLinks"
+        }
+      ]
+    },
+    {
+      "displayName": "Bing Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "bingWebsiteOverride"
+        }
+      ]
+    },
+    {
+      "displayName": "Category Specific",
+      "entryType": "DIVIDER"
     },
     {
       "defaultCollapsed": true,
@@ -213,26 +272,40 @@
           "id": "dineInHours"
         },
         {
-          "id": "takeoutHours"
+          "id": "driveThroughHours"
         },
         {
           "id": "deliveryHours"
         },
         {
+          "id": "takeoutHours"
+        },
+        {
           "id": "pickupHours"
         },
         {
-          "id": "driveThroughHours"
+          "id": "pickupAndDeliveryServices"
         }
       ]
+    },
+    {
+      "displayName": "Tracking",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Competitors",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Order Management",
+      "entryType": "DIVIDER"
     },
     {
       "displayName": "Order Details",
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "entityId",
-          "visibleOnAdd": true
+          "id": "c_productName"
         },
         {
           "id": "c_aspOrderID",
@@ -244,18 +317,6 @@
         },
         {
           "id": "c_endDate",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "c_customerContactNumber",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "c_customerEmail",
-          "visibleOnAdd": true
-        },
-        {
-          "id": "c_customerName",
           "visibleOnAdd": true
         },
         {
@@ -280,7 +341,16 @@
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "c_productName"
+          "id": "c_customerName",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_customerContactNumber",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_customerEmail",
+          "visibleOnAdd": true
         },
         {
           "id": "c_onboardingStatus"
@@ -289,6 +359,10 @@
           "id": "c_fulfilmentNotes"
         }
       ]
+    },
+    {
+      "displayName": "Settings",
+      "entryType": "DIVIDER"
     },
     {
       "defaultCollapsed": true,
@@ -317,7 +391,7 @@
           "id": "slug"
         },
         {
-          "id": "googleWebsiteOverride"
+          "id": "landingPageUrl"
         },
         {
           "id": "fax"
@@ -326,37 +400,9 @@
           "id": "ttyPhone"
         },
         {
-          "id": "geomodifier"
-        },
-        {
-          "id": "productLists"
-        },
-        {
-          "id": "bios"
-        },
-        {
-          "id": "landingPageUrl"
-        },
-        {
           "id": "what3WordsAddress"
-        },
-        {
-          "id": "covidMessaging"
-        },
-        {
-          "id": "proofOfVaccinationRequired"
-        },
-        {
-          "id": "fullyVaccinatedStaff"
-        },
-        {
-          "id": "neighborhood"
         }
       ]
-    },
-    {
-      "displayName": "Settings",
-      "entryType": "DIVIDER"
     },
     {
       "defaultCollapsed": true,
@@ -378,24 +424,24 @@
       ]
     },
     {
-      "defaultCollapsed": true,
-      "displayName": "Apple Fields",
+      "displayName": "Other Fields",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Covid Fields",
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "appleCompanyId"
+          "id": "covidMessaging"
         },
         {
-          "id": "appleBusinessId"
+          "id": "proofOfVaccinationRequired"
         },
         {
-          "id": "appleBusinessDescription"
+          "id": "fullyVaccinatedStaff"
         },
         {
-          "id": "appleCoverPhoto"
-        },
-        {
-          "id": "appleActionLinks"
+          "id": "covid19InformationUrl"
         }
       ]
     }

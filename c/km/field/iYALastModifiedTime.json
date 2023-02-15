@@ -1,6 +1,7 @@
 {
   "$id": "c_iYALastModifiedTime",
   "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
   "displayName": "IYA Last Modified Time",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
