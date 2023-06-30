@@ -28,6 +28,9 @@
           "id": "addressHidden"
         },
         {
+          "id": "serviceAreaPlaces"
+        },
+        {
           "id": "mainPhone",
           "visibleOnAdd": true
         },
@@ -68,32 +71,6 @@
       ]
     },
     {
-      "defaultCollapsed": true,
-      "displayName": "Additional Contact Details",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "localPhone"
-        },
-        {
-          "id": "tollFreePhone"
-        },
-        {
-          "id": "alternatePhone"
-        },
-        {
-          "id": "deliveryUrl"
-        },
-        {
-          "id": "iosAppUrl"
-        },
-        {
-          "id": "androidAppUrl"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
       "displayName": "Additional Business Details",
       "entryType": "SECTION",
       "fields": [
@@ -119,25 +96,22 @@
           "id": "brands"
         },
         {
-          "id": "languages"
-        },
-        {
           "id": "keywords"
         },
         {
-          "id": "phoneticName"
+          "id": "pickupAndDeliveryServices"
         },
         {
           "id": "additionalHoursText"
         },
         {
+          "id": "phoneticName"
+        },
+        {
+          "id": "languages"
+        },
+        {
           "id": "geomodifier"
-        },
-        {
-          "id": "productLists"
-        },
-        {
-          "id": "bios"
         },
         {
           "id": "neighborhood"
@@ -170,38 +144,77 @@
           "id": "instagramHandle"
         },
         {
-          "id": "twitterHandle"
+          "id": "linkedInUrl"
         },
         {
-          "id": "linkedInUrl"
+          "id": "twitterHandle"
         }
       ]
     },
     {
-      "displayName": "Frequently Asked Questions",
-      "entryType": "SECTION"
+      "displayName": "Linked Accounts",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookLinkedAccount"
+        },
+        {
+          "id": "foursquareLinkedAccount"
+        },
+        {
+          "id": "gmbLinkedAccount"
+        },
+        {
+          "id": "linkedinLinkedAccount"
+        }
+      ]
+    },
+    {
+      "displayName": "Tracking",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Competitors",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "rankTrackingCompetitors"
+        }
+      ]
+    },
+    {
+      "displayName": "Search Tracker",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "rankTrackingEnabled"
+        },
+        {
+          "id": "rankTrackingFrequency"
+        },
+        {
+          "id": "rankTrackingKeywords"
+        },
+        {
+          "id": "customKeywords"
+        },
+        {
+          "id": "rankTrackingQueryTemplates"
+        },
+        {
+          "id": "rankTrackingSites"
+        },
+        {
+          "id": "alternateNames"
+        },
+        {
+          "id": "alternateWebsites"
+        }
+      ]
     },
     {
       "displayName": "Publisher Specific",
       "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Google Fields",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "googleWebsiteOverride"
-        }
-      ]
-    },
-    {
-      "displayName": "Facebook Fields",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "facebookWebsiteOverride"
-        }
-      ]
     },
     {
       "defaultCollapsed": true,
@@ -226,11 +239,87 @@
       ]
     },
     {
+      "defaultCollapsed": true,
       "displayName": "Bing Fields",
       "entryType": "SECTION",
       "fields": [
         {
           "id": "bingWebsiteOverride"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Facebook Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookProfilePhoto"
+        },
+        {
+          "id": "facebookCoverPhoto"
+        },
+        {
+          "id": "facebookAbout"
+        },
+        {
+          "id": "facebookCallToAction"
+        },
+        {
+          "id": "facebookOverrideCity"
+        },
+        {
+          "id": "facebookWebsiteOverride"
+        },
+        {
+          "id": "facebookDescriptor"
+        },
+        {
+          "id": "facebookName"
+        },
+        {
+          "id": "facebookVanityUrl"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Google Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleProfilePhoto"
+        },
+        {
+          "id": "googleCoverPhoto"
+        },
+        {
+          "id": "googleAttributes"
+        },
+        {
+          "id": "googleWebsiteOverride"
+        },
+        {
+          "id": "googleEntityRelationship"
+        },
+        {
+          "id": "googleMyBusinessLabels"
+        },
+        {
+          "id": "googleAccountId"
+        },
+        {
+          "id": "googlePlaceId"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Frequently Asked Questions",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "frequentlyAskedQuestions"
         }
       ]
     },
@@ -260,13 +349,10 @@
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "kitchenHours"
-        },
-        {
           "id": "brunchHours"
         },
         {
-          "id": "happyHours"
+          "id": "deliveryHours"
         },
         {
           "id": "dineInHours"
@@ -275,32 +361,25 @@
           "id": "driveThroughHours"
         },
         {
-          "id": "deliveryHours"
+          "id": "happyHours"
         },
         {
-          "id": "takeoutHours"
+          "id": "kitchenHours"
         },
         {
           "id": "pickupHours"
         },
         {
-          "id": "pickupAndDeliveryServices"
+          "id": "takeoutHours"
         }
       ]
-    },
-    {
-      "displayName": "Tracking",
-      "entryType": "DIVIDER"
-    },
-    {
-      "displayName": "Competitors",
-      "entryType": "SECTION"
     },
     {
       "displayName": "Order Management",
       "entryType": "DIVIDER"
     },
     {
+      "defaultCollapsed": true,
       "displayName": "Order Details",
       "entryType": "SECTION",
       "fields": [
@@ -337,6 +416,7 @@
       ]
     },
     {
+      "defaultCollapsed": true,
       "displayName": "Customer Support",
       "entryType": "SECTION",
       "fields": [
@@ -366,41 +446,17 @@
     },
     {
       "defaultCollapsed": true,
-      "displayName": "Internal Use Only",
+      "displayName": "Review Generation",
       "entryType": "SECTION",
       "fields": [
         {
-          "id": "closed"
+          "id": "firstPartyReviewPage"
         },
         {
-          "id": "folder"
+          "id": "reviewGenerationUrl"
         },
         {
-          "id": "labels"
-        },
-        {
-          "id": "isoRegionCode"
-        },
-        {
-          "id": "deliverListingsWithoutGeocode"
-        },
-        {
-          "id": "timezone"
-        },
-        {
-          "id": "slug"
-        },
-        {
-          "id": "landingPageUrl"
-        },
-        {
-          "id": "fax"
-        },
-        {
-          "id": "ttyPhone"
-        },
-        {
-          "id": "what3WordsAddress"
+          "id": "defaultReviewInviteTemplate"
         }
       ]
     },
@@ -424,13 +480,82 @@
       ]
     },
     {
+      "defaultCollapsed": true,
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "fax"
+        },
+        {
+          "id": "ttyPhone"
+        },
+        {
+          "id": "landingPageUrl"
+        },
+        {
+          "id": "what3WordsAddress"
+        },
+        {
+          "id": "closed"
+        },
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        },
+        {
+          "id": "isoRegionCode"
+        },
+        {
+          "id": "deliverListingsWithoutGeocode"
+        },
+        {
+          "id": "timezone"
+        },
+        {
+          "id": "slug"
+        }
+      ]
+    },
+    {
       "displayName": "Other Fields",
       "entryType": "DIVIDER"
     },
     {
+      "defaultCollapsed": true,
+      "displayName": "Additional Contacts Details",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "localPhone"
+        },
+        {
+          "id": "tollFreePhone"
+        },
+        {
+          "id": "alternatePhone"
+        },
+        {
+          "id": "deliveryUrl"
+        },
+        {
+          "id": "iosAppUrl"
+        },
+        {
+          "id": "androidAppUrl"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
       "displayName": "Covid Fields",
       "entryType": "SECTION",
       "fields": [
+        {
+          "id": "covid19InformationUrl"
+        },
         {
           "id": "covidMessaging"
         },
@@ -439,9 +564,19 @@
         },
         {
           "id": "fullyVaccinatedStaff"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Enhanced Content Lists",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "productLists"
         },
         {
-          "id": "covid19InformationUrl"
+          "id": "bios"
         }
       ]
     }
